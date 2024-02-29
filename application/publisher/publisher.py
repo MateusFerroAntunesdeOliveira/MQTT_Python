@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 
-topic = "/messages"
+topic = "topics/message"
 payload = "Publisher Python File Sending Message"
 
 mqtt_client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, "publisher")
