@@ -27,7 +27,7 @@
 1. Instale o mosquitto (broker MQTT) em sua máquina.
 2. Instale a biblioteca paho-mqtt (pip install paho-mqtt).
 3. Abra um terminal, navegue até a pasta de instalação do mosquitto e execute "`mosquitto -v`" para iniciar o broker MQTT.
-4. Abra outro terminal e execute o arquivo "`run.py`" para iniciar o subscriber no tópico configurado (por default, está "`topics/messages`").
+4. Abra outro terminal e execute o arquivo "`run.py`" para iniciar o subscriber no tópico configurado (por default, está como "`topics/messages`").
 5. Abra outro terminal e execute o arquivo "`publisher.py`" para publicar uma mensagem no tópico configurado.
 
 ## Para alterar o tópico:
@@ -39,7 +39,7 @@
 - Abra outro terminal e execute "`mosquitto_pub -h localhost -p 1883 -t "topics/message" -m "Hello, World!"`" para publicar uma mensagem no tópico. 
 
 ## Autor:
-- [Mateus Ferro](@MateusFerroAntunesdeOliveira)
+<a href="https://github.com/mateusferroantunesdeoliveira"><img src="https://avatars.githubusercontent.com/u/53230135?v=4" width="100px;" alt=""/><br /><sub><b>Mateus Ferro Antunes de Oliveira</b></sub></a>
 
 ## 
 Projeto desenvolvido e finalizado em 03/2024
